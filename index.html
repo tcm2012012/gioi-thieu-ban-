@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            width: 350px;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        .age {
+            color: #00ffd5;
+            font-weight: bold;
+        }
+
+        .hobby {
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        .links a {
+            display: inline-block;
+            margin: 8px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            background: #ff0066;
+            transition: 0.3s;
+        }
+
+        .links a:hover {
+            background: #00ffd5;
+            color: black;
+        }
+
+        @media (max-width: 400px) {
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/150" class="avatar" alt="avatar">
+
+        <h1>Minh</h1>
+        <div class="age">Tuổi: 14</div>
+
+        <div class="hobby">
+            Sở thích: Chơi đồ công nghệ, tìm hiểu laptop, build PC,
+            thích khám phá phần cứng và lập trình.
+        </div>
+
+        <div class="links">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://tiktok.com" target="_blank">TikTok</a>
+        </div>
+    </div>
+
+</body>
+</html>
